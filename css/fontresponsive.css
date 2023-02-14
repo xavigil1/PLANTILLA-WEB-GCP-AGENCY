@@ -1,0 +1,37 @@
+@media screen and (max-width:767px){
+	h1{
+		font-size: 70px !important;
+		line-height: 70px !important;
+	}
+	h2{
+		font-size: 30px !important;
+	}
+	h3{
+		font-size: 18px !important;
+	}
+	font{
+		font-size: 15px !important;
+	}
+	p{
+		font-size: 13px !important;
+	}
+}
+
+@media screen and (max-width:280px){
+	h1{
+		font-size: 50px !important;
+		line-height: 70px !important;
+	}
+	h2{
+		font-size: 30px !important;
+	}
+	h3{
+		font-size: 18px !important;
+	}
+	font{
+		font-size: 13px !important;
+	}
+	p{
+		font-size: 13px !important;
+	}
+}

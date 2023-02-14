@@ -1,0 +1,68 @@
+/*FORMN CSS*/
+
+.row{
+	gap: 10px;
+	/*border: 2px solid orange;*/
+	justify-content: center;
+}
+
+.row font{
+	font-size:20px;
+	font-weight:600;
+	line-height: 20px;
+	padding-bottom: 10px;
+}
+
+.grid-form input,
+.grid-form textarea{
+	width: 95%;
+}
+
+.grid-form input{
+	height: 50px;
+}
+
+.grid-form textarea{
+	height: 120px;
+	resize: none;
+	overflow: auto;
+}
+
+.form-container{
+	padding: 40px 30px;
+	text-align: left;
+	border: 2px solid #fff;
+}
+
+.row button{
+	position: relative;
+	top: -35px;
+	width: 120px;
+	font-size: 16px;
+	padding: 10px 20px;
+	background-color: #fc5500;
+	border: none;
+	color: #fff;
+	transition: 1s ease-in;
+}
+
+.row button:hover{
+	background: #000 !important;
+	border: 2px solid #fc5500;
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width:767px){
+	.grid-form:nth-child(2){
+		grid-row: 3/4;
+	}
+}
+
+@media screen and (max-width:280px){
+	input::placeholder,
+	textarea::placeholder{
+		font-size: 12px;
+	}
+}
+
+
